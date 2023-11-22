@@ -1,0 +1,105 @@
+1.What is React Js?
+ans:-
+React.js is a JavaScript library for building interactive and reusable user interface components in web applications. It simplifies the process of creating dynamic and efficient user interfaces by using a component-based architecture.
+
+
+
+
+2.What is NPM in React Js?
+ans:-
+NPM stands for Node Package Manager. In React.js (and in general for many JavaScript projects), NPM is used to manage and install the packages (libraries, tools, and dependencies) that a project needs. It simplifies the process of adding, updating, and removing packages, streamlining the development workflow. Developers use NPM to install React itself, as well as other third-party libraries or tools that enhance the functionality of their React applications.
+
+
+
+
+3.What is Role of Node Js in react Js?
+ans:-
+Node.js is a JavaScript runtime that allows developers to run JavaScript on the server side. While React.js is a front-end library for building user interfaces, Node.js can play a role in the React.js ecosystem in a few ways:
+
+Server-Side Rendering (SSR): Node.js can be used for server-side rendering in React applications. SSR is a technique where the initial rendering of the React components occurs on the server rather than the client. This can improve the perceived performance and search engine optimization (SEO) of the application.
+
+Build Tools and Package Management: Node.js is commonly used with tools like npm (Node Package Manager) to manage project dependencies, scripts, and build processes. When you create a React application using tools like Create React App, Node.js is used to handle the build process, bundling, and running development servers.
+
+Middleware and APIs: Node.js can be used to create server-side logic and APIs that interact with a React front end. This is often the case in full-stack JavaScript applications, where Node.js serves as the backend technology to handle data storage, retrieval, and other server-side operations.
+
+Development Environment: Node.js provides a runtime environment for JavaScript outside of the browser, making it a suitable choice for server-side development and creating development tools that facilitate React development.
+
+
+
+
+4.What is CLI command In React Js?
+ans:-
+In React.js, the CLI (Command Line Interface) command commonly used is associated with tools like Create React App. Create React App is a popular command-line tool that helps set up a new React project with a sensible default configuration. 
+
+
+
+
+5.What is Components in React Js?
+ans:-
+In React.js, a component is a reusable piece of code that represents a part of a user interface. Components can be functional (stateless) or class-based (stateful), and they are the fundamental building blocks for creating modular and maintainable React applications. Components can be composed and nested to construct complex user interfaces.
+
+
+
+
+6.What is Header and Content Components in React Js?
+ans:-
+Header Component: Contains elements like the app title and navigation links, typically displayed at the top of the page for a consistent look.
+
+Content Component: Represents the main area where dynamic content is displayed, often changing based on user interactions or the viewed page.
+
+
+
+
+7.How to install React Js on Windows, Linux Operating System? How to Install
+NPM and How to check version of NPM?
+ans:-
+Install React.js and NPM:
+For Windows:
+
+Download and install Node.js from nodejs.org.
+Open a terminal or command prompt.
+For Linux (Debian/Ubuntu):
+
+Open a terminal.
+Run:
+sudo apt update
+sudo apt install nodejs npm
+
+Install Create React App:
+Run:
+npm install -g create-react-app
+
+Create a new React app:
+npx create-react-app my-react-app
+cd my-react-app
+
+Start the development server:
+npm start
+
+Check NPM version:
+npm -v
+
+8.How to check version of React Js?
+ans:-
+To check the version of React.js in your project:
+
+1.Open a terminal in your project directory.
+2.Run:
+npm list react
+
+
+
+
+9.How to change in components of React Js?
+ans:-
+To change a React component:
+
+1.Open the component file in a text editor.
+
+2.Modify the code to make the desired changes.
+
+3.Save the file.
+
+4.If your React app is running (npm start), changes will automatically reflect in the browser due to hot reloading.
+
+5.Inspect and debug using browser developer tools if needed.
