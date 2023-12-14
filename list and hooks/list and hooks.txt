@@ -1,0 +1,35 @@
+-Mounting Phase:
+
+  -constructor: The constructor is called before a component is mounted. It is used for initializing state and binding event handlers.
+   static getDerivedStateFromProps: Invoked right before calling the render method, it is used to update the state based on the changes in props.
+   render: This is where the UI is rendered.
+   After the render, the component is mounted to the DOM.
+
+-componentDidMount: This method is called after the component is mounted. It is often used for fetching data from an API or setting up subscriptions.
+ Updating Phase:
+
+-shouldComponentUpdate: This method is called before rendering when new props or state are received. It can be used to prevent unnecessary re-renders.
+render: Re-renders the component with updated props and state.
+After the render, the component is updated in the DOM.
+
+componentDidUpdate: This method is called after the component is updated. It is often used for side effects like network requests.
+Unmounting Phase:
+
+componentWillUnmount: This method is called before the component is unmounted and destroyed. It is used for cleanup tasks like cancelling network requests or clearing timers.
+Functional Components with Hooks:
+Mounting Phase:
+
+useState: Allows functional components to have state.
+useEffect: Takes care of the side effects in functional components. The equivalent of componentDidMount and componentDidUpdate.
+useEffect(() => {
+  // Code to run after the component is mounted or updated
+  return () => {
+    // Cleanup code before the component is unmounted
+  };
+}, [dependencies]);
+Updating Phase:
+
+Same as mounting phase, useEffect is also used for side effects during updates.
+Unmounting Phase:
+
+The cleanup code in useEffect serves the same purpose as componentWillUnmount.
